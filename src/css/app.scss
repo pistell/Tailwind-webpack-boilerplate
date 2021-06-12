@@ -1,0 +1,14 @@
+/*! purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/*! purgecss end ignore */
+@tailwind utilities;
+
+.box {
+  @apply bg-indigo-700
+		text-gray-100
+		min-w-full
+		h-32
+		min-h-full
+		rounded;
+}
