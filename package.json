@@ -1,10 +1,10 @@
 {
-  "name": "tailwind-example",
-  "version": "0.3.0",
-  "description": "A tailwind starter package for rapid design prototyping for concrete5",
+  "name": "tailwind-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "A tailwind starter package",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/pistell/Tailwind-webpack-boilerplate.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\"",
@@ -12,7 +12,6 @@
     "build:profile": "cross-env NODE_ENV=production webpack --config webpack.config.js --profile --json > stats.json",
     "build:prod": "cross-env NODE_ENV=production webpack --config webpack.config.js",
     "build:dev": "cross-env NODE_ENV=development webpack --config webpack.config.js",
-    "build:c5": "cross-env NODE_ENV=production webpack --config webpack.config.js --env c5",
     "watch": "cross-env NODE_ENV=development webpack --config webpack.config.js --watch --progress",
     "dev": "cross-env NODE_ENV=development webpack serve  --config=webpack.config.js --hot --inline"
   },
@@ -24,8 +23,8 @@
     "purgecss",
     "postcss"
   ],
-  "author": "Derek Cameron",
-  "license": "MIT",
+  "author": "James Pistell",
+  "license": "Beerware",
   "devDependencies": {
     "@babel/compat-data": "^7.11.0",
     "@babel/core": "^7.11.1",
